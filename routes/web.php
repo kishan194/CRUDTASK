@@ -57,11 +57,11 @@ Route::controller(categorycontroller::class)->group(function(){
 
 });
 
-Route::controller(subcategorycontroller::class)->group(function(){
-    Route::get('/',  'Addsubcategory');
-    Route::post('/subcategory',  'storesubcategory')->name('store.subcategory');
+// Route::controller(subcategorycontroller::class)->group(function(){
+//     Route::get('/',  'Addsubcategory');
+//     Route::post('/subcategory',  'storesubcategory')->name('store.subcategory');
 
-});
+// });
 
 
 
